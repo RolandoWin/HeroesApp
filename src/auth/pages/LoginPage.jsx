@@ -8,7 +8,7 @@ export const LoginPage = () => {
     const onLogin = ()=>{
         navigate('/marvel',{
             replace:true
-        })
+        });
     }
 
     return (
